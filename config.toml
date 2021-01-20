@@ -12,11 +12,11 @@ theme = "researcher"
 [menu]
   [[menu.main]]
     name = "Writing"
-    url = "writing"
+    url = "/writing/"
     weight = 1
   [[menu.main]]
     name = "Contact"
-    url = "contact"
+    url = "/contact/"
     weight = 2
 
 [markup.goldmark.renderer]
