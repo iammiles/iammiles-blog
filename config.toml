@@ -1,4 +1,5 @@
-baseURL = "iammiles.github.io"
+baseURL = "https://iammiles.github.io"
+relativeURLs = true
 languageCode = "en-us"
 title = "https://iammil.es"
 theme = "researcher"
@@ -11,11 +12,11 @@ theme = "researcher"
 [menu]
   [[menu.main]]
     name = "Writing"
-    url = "/writing"
+    url = "writing"
     weight = 1
   [[menu.main]]
     name = "Contact"
-    url = "/contact"
+    url = "contact"
     weight = 2
 
 [markup.goldmark.renderer]
