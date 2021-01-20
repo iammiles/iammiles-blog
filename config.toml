@@ -1,0 +1,22 @@
+baseURL = "iammiles.github.io"
+languageCode = "en-us"
+title = "https://iammil.es"
+theme = "researcher"
+
+[params]
+  author = "Miles McDaniel"
+  description = "Personal blog for Miles McDaniel"
+  favicon = "favicon.ico"  # path to a .ico to use as favicon
+
+[menu]
+  [[menu.main]]
+    name = "Writing"
+    url = "/writing"
+    weight = 1
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 2
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in markdown files
