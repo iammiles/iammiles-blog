@@ -1,4 +1,4 @@
-baseURL = "https://iammiles.github.io"
+baseURL = "http://iammil.es"
 relativeURLs = true
 languageCode = "en-us"
 title = "https://iammil.es"
@@ -40,3 +40,5 @@ gzip = true
 [[deployment.matchers]]
 pattern = "^.+\\.(html|xml|json)$"
 gzip = true
+
+# http://iammil.es.s3-website-us-west-2.amazonaws.com
